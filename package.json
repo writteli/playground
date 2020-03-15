@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Working on example writteli setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writteli/playground.git"
+  },
+  "author": "lukaszkups",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writteli/playground/issues"
+  },
+  "homepage": "https://github.com/writteli/playground#readme",
+  "dependencies": {
+    "writteli-lib": "0.0.1"
+  }
+}
