@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/writteli/playground#readme",
   "dependencies": {
-    "writteli-lib": "0.0.1"
+    "http-server": "^0.12.1",
+    "node-sass": "^4.13.1",
+    "node-watch": "^0.6.3",
+    "pug": "^2.0.4",
+    "showdown": "^1.9.1",
+    "uglify-es": "^3.3.9",
+    "writteli-lib": "^0.0.2"
   }
 }
