@@ -1,3 +1,6 @@
-import Writteli from './src/writteli.js'
+import Writteli from './writteli.js'
 
-const writteli = new Writteli()
+const writteli = new Writteli({
+  configUrl: './website/config.json'
+})
+writteli.compile()

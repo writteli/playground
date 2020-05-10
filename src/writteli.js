@@ -1,8 +1,7 @@
 import path from 'path'
 import WritteliLib from 'writteli-lib'
 import Showdown from 'showdown'
-import Pug from 'pug'
-
+const Pug = require('pug')
 
 export default class Writteli extends WritteliLib {
   constructor (...args) {

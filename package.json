@@ -4,6 +4,8 @@
   "description": "Working on example writteli setup",
   "main": "index.js",
   "scripts": {
+    "buildjs": "rollup --config rollup.config.js --environment NODE_ENV:production",
+    "build": "npm run buildjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,12 +19,25 @@
   },
   "homepage": "https://github.com/writteli/playground#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "http-server": "^0.12.1",
     "node-sass": "^4.13.1",
     "node-watch": "^0.6.3",
     "pug": "^2.0.4",
     "showdown": "^1.9.1",
     "uglify-es": "^3.3.9",
-    "writteli-lib": "^0.0.2"
+    "writteli-lib": "^0.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-json": "^4.0.2",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify-es": "0.0.1"
   }
 }
